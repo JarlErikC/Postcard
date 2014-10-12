@@ -61,6 +61,15 @@
                                     <action selector="sendMailButtonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="TEQ-T4-P3o"/>
                                 </connections>
                             </button>
+                            <label hidden="YES" opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Lqe-aF-mX6">
+                                <rect key="frame" x="0.0" y="-21" width="42" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                                <variation key="widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="16" y="183" width="152" height="21"/>
+                                </variation>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <variation key="default">
@@ -70,6 +79,7 @@
                                 <exclude reference="ECX-RT-3di"/>
                                 <exclude reference="12A-lO-H6d"/>
                                 <exclude reference="P7n-Vt-gsX"/>
+                                <exclude reference="Lqe-aF-mX6"/>
                             </mask>
                         </variation>
                         <variation key="widthClass=compact">
@@ -79,6 +89,7 @@
                                 <include reference="ECX-RT-3di"/>
                                 <include reference="12A-lO-H6d"/>
                                 <include reference="P7n-Vt-gsX"/>
+                                <include reference="Lqe-aF-mX6"/>
                             </mask>
                         </variation>
                     </view>
@@ -87,6 +98,7 @@
                         <outlet property="enterNameTextField" destination="NFg-3q-alj" id="14f-rJ-9Om"/>
                         <outlet property="mailButton" destination="P7n-Vt-gsX" id="Zoc-CG-Z7O"/>
                         <outlet property="messageLabel" destination="ECX-RT-3di" id="4Fk-iz-F43"/>
+                        <outlet property="nameLabel" destination="Lqe-aF-mX6" id="W1B-Rg-Tzu"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
